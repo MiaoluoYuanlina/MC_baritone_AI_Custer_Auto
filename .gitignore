@@ -1,0 +1,32 @@
+# --- Claude Code local settings ---
+.claude/
+
+# --- Gradle build outputs & caches ---
+.gradle/
+.gradle-user/
+build/
+dist/
+out/
+
+# --- .NET build outputs (WPF Server) ---
+bin/
+obj/
+.vs/
+
+# --- IntelliJ / VS Code ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# --- Minecraft dev run directories ---
+run/
+logs/
+
+# --- OS junk ---
+Thumbs.db
+.DS_Store

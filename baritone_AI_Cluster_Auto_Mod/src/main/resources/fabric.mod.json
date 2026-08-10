@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "baritone_ai_cluster_auto",
+  "version": "${version}",
+  "name": "Baritone AI Cluster Auto",
+  "description": "Authenticated bridge between Baritone clients and a cluster controller.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.baritonecluster.bridge.ClusterBridgeClient"] },
+  "mixins": ["baritone-ai-cluster-auto.mixins.json"],
+  "depends": { "fabricloader": ">=0.19.3", "fabric-api": "*", "minecraft": "26.1.2", "baritone": "*" }
+}

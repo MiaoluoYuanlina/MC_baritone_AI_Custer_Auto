@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.baritonecluster.bridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MouseHandlerMixin", "EntityRenderDispatcherMixin", "MinecraftAttackInvoker", "MinecraftInputMixin", "GuiMixin", "ItemInHandRendererMixin", "SpriteContentsAccessor", "RenderTypeInvoker"],
+  "injectors": { "defaultRequire": 1 }
+}
