@@ -1,2 +1,4 @@
 # MC_baritone_AI_Custer_Auto
 我的世界基于baritone的AI集群自动化mod
+
+此mod使用codex辅助编写。
